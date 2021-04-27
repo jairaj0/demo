@@ -87,6 +87,7 @@ footer{
 @media only screen and (max-width: 374px) {
     .footer{
     display: flex !important;
+    align-items: flex-start;
     flex-direction: column;
     }
   }

@@ -1,0 +1,84 @@
+:root {
+  --primary: #fff;
+  --dark: #242424;
+  --footer-bg: #1A1127;
+  --patners-bg: #231733;
+  --red: #B41130;
+}
+
+.model_bg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.model_bg .model {
+  border: 1px solid var(--red);
+  width: 480px;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.model_bg .model .model_close {
+  font-size: 20px;
+}
+
+.model_bg .model .model_title {
+  border-radius: 1rem 1rem 0 0;
+  font-size: 16px;
+  background-color: #6D0828;
+  color: var(--primary);
+  padding: 1rem;
+}
+
+.model_bg .model .wallets {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  background-color: #1A1127;
+}
+
+.model_bg .model .wallets .wallet {
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
+  background-color: #1F152E;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.model_bg .model .wallets .wallet h1 {
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.model_bg .model .wallets .wallet:hover {
+  border-color: var(--red);
+}
+
+.model_close_bg {
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 99;
+  cursor: pointer;
+}
+/*# sourceMappingURL=model.css.map */

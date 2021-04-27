@@ -3,7 +3,6 @@
 nav{
     height: 70px;
     position: absolute;
-    z-index: 99999999;
     width: 100%;
 
     .close, .menu{
@@ -58,6 +57,13 @@ nav{
 }
 
 @media only screen and (max-width: 600px) {
+    nav{
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--dark);
+    }
     .nav{
         .nav_links{
             display: none;
