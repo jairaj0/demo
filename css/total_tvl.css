@@ -1,0 +1,15 @@
+:root {
+  --primary: #fff;
+  --dark: #242424;
+  --footer-bg: #1A1127;
+  --patners-bg: #231733;
+  --red: #B41130;
+}
+
+.total_tvl {
+  color: var(--primary);
+  border-bottom: 1px solid #fff;
+  background-color: var(--patners-bg);
+  height: 200px;
+}
+/*# sourceMappingURL=total_tvl.css.map */

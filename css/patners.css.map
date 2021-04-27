@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,KAAK,CAAA;EACD,SAAS,CAAA,KAAC;EACV,MAAM,CAAA,QAAC;EACP,WAAW,CAAA,QAAC;EACZ,YAAY,CAAA,QAAC;EACb,KAAK,CAAA,QAAC;CACT;;ADJD,AAAA,QAAQ,CAAA;EACJ,KAAK,EAAE,cAAc;EACrB,gBAAgB,EAAE,iBAAiB;EACnC,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "patners.scss",
+        "variable.scss"
+    ],
+    "names": [],
+    "file": "patners.css"
+}

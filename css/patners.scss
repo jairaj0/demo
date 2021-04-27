@@ -1,0 +1,7 @@
+@import './variable';
+
+.patners{
+    color: var(--primary);
+    background-color: var(--patners-bg);
+    height: 200px;
+}

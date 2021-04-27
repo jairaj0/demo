@@ -1,0 +1,50 @@
+@import './variable';
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding-top: 30%;
+    background-color: var(--dark);
+
+    .navbar_link{
+        border-bottom:2px solid transparent;
+        width: 80%;
+        text-align: center;
+        margin-right: 0px;
+        padding: 1rem;
+        color: var(--primary);
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+    }
+    .navbar_link:hover{
+        background-color: gray;
+        border-bottom:2px solid transparent;
+    }
+    .connect{
+        background-color: var(--red);
+        width: 80%;
+        text-align: center;
+        margin-top: 25px;
+        border:  1px solid transparent;
+    }
+
+    .connect:hover{
+        background-color: transparent;
+        border-color: var(--red);
+    }
+
+    .close{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+}

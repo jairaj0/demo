@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,KAAK,CAAA;EACD,SAAS,CAAA,KAAC;EACV,MAAM,CAAA,QAAC;EACP,WAAW,CAAA,QAAC;EACZ,YAAY,CAAA,QAAC;EACb,KAAK,CAAA,QAAC;CACT;;ADJD,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,cAAc;EACrB,aAAa,EAAE,cAAc;EAC7B,gBAAgB,EAAE,iBAAiB;EACnC,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "total_tvl.scss",
+        "variable.scss"
+    ],
+    "names": [],
+    "file": "total_tvl.css"
+}

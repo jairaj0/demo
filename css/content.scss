@@ -1,0 +1,179 @@
+@import './variable';
+
+.content_container{
+    background-image: url(https://yvs.finance/images/continents.png),url(https://yvs.finance//images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    height: 650px;
+}
+
+.project_intro {
+    width: 50%;
+
+    .logo {
+        color: var(--primary);
+        font-size: 150px;
+    }
+
+    .intro {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 2rem;
+    }
+
+    .connect {
+        font-size: 25px;
+        background-color: var(--red);
+        padding: 1rem 2.5rem;
+        color: var(--primary);
+        width: fit-content;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+    }
+
+    .connect:hover{
+        background-color: var(--primary);
+        color: var(--red);
+    }
+}
+
+
+.pdf_report {
+    .m_pdf_report {
+        width: 300px;
+        height: 300px;
+        box-shadow: 0 0 20px;
+        position: relative;
+        flex-direction: column;
+        transition:  all .3s ease-in-out;
+        z-index: 2;
+        cursor: pointer;
+
+        .link{
+            font-size: 30px;
+        }
+    }
+
+    .m_pdf_report:hover{
+        box-shadow: 0 0 20px var(--primary);
+        background-color: #170F22;
+        color: var(--primary);
+        transform: translateY(-10px);
+    }
+
+    .pdf_bg {
+        background-color: #170F22;
+        opacity: .8;
+        filter: blur(2px);
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .logo {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    h1 {
+        font-size: 16px;
+        font-weight: 300;
+        color: #fff;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .pdf_report {
+        .m_pdf_report {
+            width: 350px;
+            height: 350px;
+        }
+    
+        .pdf_bg {
+            width: 350px;
+            height: 350px;
+        }
+
+        h1{
+            font-size: 16px;
+        }
+    }
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+  
+.project_intro {
+    width: 50%;
+
+    .logo {
+        font-size: 96px;
+    }
+
+    .intro {
+        font-size: 16px;
+        margin-bottom: 2rem;
+    }
+}
+    .pdf_report {
+        .m_pdf_report {
+            width: 250px;
+            height: 250px;
+        }
+    
+        .pdf_bg {
+            width: 250px;
+            height: 250px;
+        }
+    }
+  }
+
+
+
+  @media only screen and (max-width: 765px) {
+      .content{
+        height: 750px;
+        flex-direction: column;
+
+        .project_intro {
+            margin-top: 7rem;
+            width: 95%;
+
+            .logo{
+                font-size: 56px;
+                margin-bottom: 1rem;
+            }
+
+            .connect{
+                font-size: 20px;
+            }
+        }
+
+        .pdf_report{
+            margin-bottom: 3rem;
+
+            .m_pdf_report {
+                width: 200px;
+                height: 200px;
+            }
+        
+            .pdf_bg {
+                width: 200px;
+                height: 200px;
+            }
+
+            .logo{
+                margin-bottom: 20px;
+            }
+            .pdf_bg{
+            background: #210c52;
+            
+            }
+        }
+      }
+  }
