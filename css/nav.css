@@ -137,6 +137,7 @@ nav .nav_links .connect:hover {
         top: 0;
         left: 0;
         right: 0;
+        background-color: var(--dark);
     }
   .nav .nav_links {
     display: none;
