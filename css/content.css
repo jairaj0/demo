@@ -44,9 +44,14 @@
   transition: all .3s ease-in-out;
 }
 
-.project_intro .connect:hover {
-  background-color: #8f1212;
+.project_intro .connect:active {
+  background-color: var(--red);
   color: var(--primary);
+}
+
+.project_intro .connect:hover {
+  background-color: var(--primary);
+  color: var(--red);
 }
 
 .pdf_report .m_pdf_report {

@@ -34,9 +34,14 @@
         transition: all .3s ease-in-out;
     }
 
-    .connect:hover{
-        background-color: #8f1212;
+    .connect:active{
+        background-color: var(--red);
         color: var(--primary);
+    }
+
+    .connect:hover{
+        background-color: var(--primary);
+        color: var(--red);
     }
 }
 
