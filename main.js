@@ -3,6 +3,7 @@ const close = document.querySelector('.close');
 const navbar = document.querySelector('.navbar');
 const model = document.querySelector('.model_bg');
 const connect = document.querySelector('.connect');
+const hero_connect = document.querySelector('.hero_connect');
 const model_close = document.querySelector('.model_close');
 const model_close_bg = document.querySelector('.model_close_bg');
 const pdf_report = document.querySelector('.pdf_report');
@@ -14,6 +15,11 @@ model.style.display="none";
 model_close_bg.style.display="none";
 
 connect.addEventListener('click', function(){
+    model.style.display="flex";
+    model_close_bg.style.display="block";
+})
+
+hero_connect.addEventListener('click', function(){
     model.style.display="flex";
     model_close_bg.style.display="block";
 })

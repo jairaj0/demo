@@ -54,7 +54,7 @@
 
 .model_close_bg{
     content: ' ';
-    display: block;
+    display: none;
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -63,6 +63,13 @@
     cursor: pointer;
 }
 
+@media only screen and (max-width: 555px) {
+    .model_bg{
+        .model{
+            width: 85vw;
+        }
+    }
+}
 
 
 
