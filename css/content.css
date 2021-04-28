@@ -45,8 +45,8 @@
 }
 
 .project_intro .connect:hover {
-  background-color: var(--primary);
-  color: var(--red);
+  background-color: #8f1212;
+  color: var(--primary);
 }
 
 .pdf_report .m_pdf_report {
