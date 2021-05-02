@@ -14,8 +14,9 @@
     width: 50%;
 
     .logo {
-        color: var(--primary);
-        font-size: 150px;
+        .content_logo{
+            width: 400px;
+        }
     }
 
     .intro {
@@ -80,8 +81,10 @@
     }
 
     .logo {
-        font-size: 30px;
-        font-weight: 800;
+        margin: 1.5rem 0;
+        .pdf_logo{
+            width: 100px;
+        }
     }
 
     h1 {
@@ -95,13 +98,20 @@
 @media only screen and (max-width: 1024px) {
     .pdf_report {
         .m_pdf_report {
-            width: 350px;
-            height: 350px;
+            width: 300px;
+            height: 300px;
         }
     
         .pdf_bg {
-            width: 350px;
-            height: 350px;
+            width: 300px;
+            height: 300px;
+        }
+
+        .logo {
+            margin: 1rem 0;
+            .pdf_logo{
+                width: 90px;
+            }
         }
 
         h1{
@@ -117,9 +127,11 @@
     width: 50%;
 
     .logo {
-        font-size: 96px;
+        margin-bottom: 1.5rem;
+        .content_logo{
+            width: 350px;
+        }
     }
-
     .intro {
         font-size: 16px;
         margin-bottom: 2rem;
@@ -149,9 +161,10 @@
             margin-top: 7rem;
             width: 95%;
 
-            .logo{
-                font-size: 56px;
-                margin-bottom: 1rem;
+            .logo {
+                .content_logo{
+                    width: 400px;
+                }
             }
 
             .connect{
@@ -160,20 +173,23 @@
         }
 
         .pdf_report{
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
 
             .m_pdf_report {
-                width: 200px;
-                height: 200px;
+                width: 250px;
+                height: 250px;
             }
         
             .pdf_bg {
-                width: 200px;
-                height: 200px;
+                width: 250px;
+                height: 250px;
             }
 
-            .logo{
-                margin-bottom: 20px;
+            .logo {
+                margin: 1rem 0;
+                .pdf_logo{
+                    width: 90px;
+                }
             }
             .pdf_bg{
             background: #210c52;
@@ -182,3 +198,58 @@
         }
       }
   }
+
+  @media only screen and (max-width: 600px) {
+    .content{
+
+        .project_intro {
+
+            .logo {
+                .content_logo{
+                    width: 300px;
+                }
+            }
+
+        }
+
+        .pdf_report{
+
+            .m_pdf_report {
+                width: 250px;
+                height: 250px;
+            }
+        
+            .pdf_bg {
+                width: 250px;
+                height: 250px;
+            }
+
+            .logo {
+                margin: 1rem 0;
+                .pdf_logo{
+                    width: 90px;
+                }
+            }
+            .pdf_bg{
+            background: #210c52;
+            
+            }
+        }
+      }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .content{
+      height: 800px;
+
+      .project_intro {
+
+        .logo {
+            .content_logo{
+                width: 250px;
+            }
+        }
+
+    }
+    }
+}
